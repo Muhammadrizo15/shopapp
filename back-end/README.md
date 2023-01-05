@@ -32,6 +32,12 @@
 $ npm install
 ```
 
+## Используется база данных mysql, в файле .env надо указать путь к базе данных
+
+```bash
+DATABASE_URL="mysql://Имя пользователя:Пароль@localhost:3306/здесь назв. бд"
+```
+
 ## Running the app
 
 ```bash
